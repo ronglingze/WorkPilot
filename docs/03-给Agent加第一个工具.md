@@ -19,7 +19,7 @@ python -c "from examples.sales_tool import summarize_sales; print(summarize_sale
 期望输出包含：
 
 ~~~text
-'total': 3600
+'total': 3600, 'by_region': {'north': 1200, 'south': 1600, 'east': 800}
 ~~~
 
 如果这一步失败，先修 Python 文件问题；**与模型和 API 无关**。
